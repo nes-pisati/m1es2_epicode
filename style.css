@@ -35,7 +35,6 @@ body {
 
 main {
     width: 100%;
-    height: 1000px;
     margin: 0;
 }
 
@@ -61,7 +60,6 @@ main {
 
 .bannerImg {
     width: 100%;
-    /*max-width: 1279px; (da implementare nel caso in cui non si volesse la ripetizione anche orizzontale dell'immagine quando si allarga la finestra del browser)*/
     height: 195px;
     background-image: url(./img/bg-image.png);
 }
@@ -78,4 +76,135 @@ h1 {
 
 .bannerText h3 {
     margin-bottom: 0px;
+}
+
+.products {
+    background-color: white;
+    height: 400px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.prodWrapper h3 {
+    padding-left: 15px;
+    /*margin-top: 15px; SISTEMARE*/
+    font-weight: 500;
+    font-size: 1em;
+    display: inline;
+}
+
+.prodWrapper a {
+    text-decoration: none;
+    color: #017185;
+    font-size: small;
+    display:inline;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/*FIGURE DA SISTEMARE*/
+.prodWrapper figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gaming {
+    margin-bottom: 60px;
+}
+
+.gaming img {
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+}
+
+.gaming h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1em;
+    display: inline;
+}
+
+.gaming a {
+    text-decoration: none;
+    color: #017185;
+    font-size: small;
+    display:inline;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.gamText {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.music {
+    margin-bottom: 60px;
+}
+
+.music img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+} 
+
+.music h3 {
+     margin: 0;
+     font-weight: 500;
+     font-size: 1em;
+     display: inline;
+}
+
+.music a {
+     text-decoration: none;
+     color: #017185;
+     font-size: small;
+     display:inline;
+     font-weight: 600;
+     padding-left: 10px;
+}
+
+.musText {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     padding-top: 5px;
+}
+
+footer {
+    width: 100%;
+}
+
+.footCta {
+    background-color:#354758;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footCta a {
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    padding: 6px;
+}
+
+.footLogo {
+    background-color: #222F3E;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLogo img {
+    width: 100px;
+    height: auto;
+    padding: 0;
 }

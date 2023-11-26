@@ -108,22 +108,87 @@ h1 {
     text-decoration: none;
     color: #017185;
     font-size: small;
-    display:inline;
+    display: inline;
     font-weight: 600;
     padding-left: 10px;
 }
 
-figure {
+.prodWrapper figure {
     margin: 0px;
     width: 23%;
 }
 
-figure img {
+.prodWrapper img {
     object-fit: cover;
     border-radius: 10px;
     width: 100%;
     height: 100%;
     box-shadow: 5px 5px 5px rgba(211, 211, 211, 0.579);
+}
+
+/*Sezione extra*/
+
+.prodCategories {
+    background-color:#EAEDED; 
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.cat {
+    height: 100%;
+    width: 24%;
+    background-color: white;
+}
+
+.catContent {
+    padding: 20px;
+}
+
+.catContent h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.catContent a {
+    font-weight: 400;
+}
+
+.imgWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.imgWrapper figure {
+    height: 130px;
+    width: 140px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.imgWrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgWrapper figcaption {
+    font-size: small;
+}
+/*
+.promoImg {
+    position: relative;
+    top: -39px;
+    left: 97px;
+    z-index: 1;
+}*/
+
+.catContent a {
+    padding-left: 0;
 }
 
 .gaming {

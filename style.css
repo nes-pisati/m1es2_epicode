@@ -94,6 +94,7 @@ h1 {
     display: flex;
     margin: 0px;
     padding-left: 0px;
+    padding-right: 0px;
     height: 440px;
     justify-content: space-between;
 }
@@ -185,11 +186,6 @@ h1 {
     top: -50px;
     left: 102px;
     z-index: 1;
-}
-
-.promoImg img {
-    width: 20px;
-    height: 50px;
 }
 
 .catContent a {

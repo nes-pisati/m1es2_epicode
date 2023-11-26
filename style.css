@@ -179,13 +179,18 @@ h1 {
 .imgWrapper figcaption {
     font-size: small;
 }
-/*
+
 .promoImg {
     position: relative;
-    top: -39px;
-    left: 97px;
+    top: -50px;
+    left: 102px;
     z-index: 1;
-}*/
+}
+
+.promoImg img {
+    width: 20px;
+    height: 50px;
+}
 
 .catContent a {
     padding-left: 0;

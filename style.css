@@ -72,6 +72,7 @@ main {
 
 h1 {
     margin: 0;
+    display: inline;
 }
 
 .bannerText h3 {
@@ -80,21 +81,30 @@ h1 {
 
 .products {
     background-color: white;
-    height: 400px;
+    height: 500px;
     margin-right: 25px;
     margin-top: 30px;
     margin-left: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.prodWrapper h3 {
-    padding-left: 15px;
-    /*margin-top: 15px; SISTEMARE*/
+.prodWrapper {
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+    height: 440px;
+    justify-content: space-between;
+}
+
+.products h3 {
     font-weight: 500;
     font-size: 1em;
     display: inline;
 }
 
-.prodWrapper a {
+.products a {
     text-decoration: none;
     color: #017185;
     font-size: small;
@@ -103,11 +113,17 @@ h1 {
     padding-left: 10px;
 }
 
-/*FIGURE DA SISTEMARE*/
-.prodWrapper figure {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+figure {
+    margin: 0px;
+    width: 23%;
+}
+
+figure img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 5px rgba(211, 211, 211, 0.579);
 }
 
 .gaming {
